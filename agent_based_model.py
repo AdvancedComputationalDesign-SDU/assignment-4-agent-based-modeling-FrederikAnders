@@ -104,19 +104,3 @@ curvature = [agent.local_curvature for agent in agents]          # Fixed attribu
 
 # Clip curvature values and convert to a list
 curvature = np.clip(curvature, -0.5, 0.5).tolist()
-
-
-
-
-
-
-
-
-# After simulation, process results
-# TODO: Generate geometry or visualization based on agent data
-
-# Visualization code (if using Rhino/Grasshopper)
-# For example, create points or lines based on agent positions
-
-# Output variables (connect to Grasshopper outputs if applicable)
-# agent_positions = [agent.position for agent in agents]
